@@ -6,7 +6,7 @@
 	<copyright>(C) 2026 pablop76</copyright>
 	<license>GNU/GPLv3 https://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorUrl>https://web-service.com.pl/</authorUrl>
-	<version>4.5.1.2</version>
+	<version>4.5.1.3</version>
 	<description>Polskie tłumaczenie wtyczki n3t Cookie Consent 4.5.1 (okienko zgody, panel ustawień, opisy najczęstszych plików cookie).</description>
 	<fileset>
 		<files folder="administrator/language/pl-PL" target="administrator/language/pl-PL">
@@ -15,4 +15,7 @@
 			<filename>plg_system_n3tcookieconsent.data.ini</filename>
 		</files>
 	</fileset>
+	<updateservers>
+		<server type="extension" name="n3t Cookie Consent - polskie tłumaczenie">https://raw.githubusercontent.com/pablop76/n3tcookieconsent-pl-PL/release/updates.xml</server>
+	</updateservers>
 </extension>

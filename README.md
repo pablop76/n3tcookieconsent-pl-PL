@@ -38,7 +38,14 @@ Paczka instaluje się jako rozszerzenie typu plik (`files_n3tcookieconsent_plpl`
 więc można ją później odinstalować jak każde inne rozszerzenie.
 
 Bez instalatora wystarczy wgrać trzy pliki z `administrator/language/pl-PL/`
-do tego samego katalogu na serwerze.
+do tego samego katalogu na serwerze. Wtedy jednak Joomla nie będzie pokazywać aktualizacji.
+
+## Aktualizacje
+
+Od wersji 4.5.1.3 paczka rejestruje w Joomli serwer aktualizacji. Nową wersję tłumaczenia
+zobaczysz w `System → Aktualizacja → Rozszerzenia` i zainstalujesz jednym kliknięciem,
+jak każdą inną aktualizację. Starsze wersje (4.5.1.1 i 4.5.1.2) nie mają tego wpisu,
+więc 4.5.1.3 trzeba raz wgrać ręcznie.
 
 ## Po instalacji
 
